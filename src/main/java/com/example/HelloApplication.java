@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HomeController.class.getResource("home.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Home");
+        stage.setTitle("Welcome");
         stage.setScene(scene);
         stage.initStyle(StageStyle.TRANSPARENT);
         scene.setFill(Color.TRANSPARENT);

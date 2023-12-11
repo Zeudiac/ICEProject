@@ -12,12 +12,12 @@
                 <Font name="Copperplate" size="48.0" />
             </font>
         </Label>
-        <Button fx:id="loginButton" alignment="CENTER" layoutX="123.0" layoutY="172.0" mnemonicParsing="false" onAction="#login" prefHeight="85.0" prefWidth="355.0" style="-fx-background-color: blue; -fx-background-radius: 32px;; -fx-border-radius: 32px;" text="Login " textFill="WHITE">
+        <Button fx:id="loginButton" alignment="CENTER" layoutX="123.0" layoutY="172.0" mnemonicParsing="false" onAction="#login" prefHeight="85.0" prefWidth="355.0" style="-fx-background-color: blue;" text="Login " textFill="WHITE">
             <font>
                 <Font name="Copperplate Bold" size="32.0" />
             </font>
         </Button>
-      <Button fx:id="createAccountButton" alignment="CENTER" layoutX="123.0" layoutY="273.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="85.0" prefWidth="355.0" style="-fx-background-color: blue; -fx-background-radius: 32px;; -fx-border-radius: 32px;" text="Create account" textFill="WHITE">
+      <Button fx:id="createAccountButton" alignment="CENTER" layoutX="123.0" layoutY="273.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="85.0" prefWidth="355.0" style="-fx-background-color: blue;" text="Create account" textFill="WHITE">
          <font>
             <Font name="Copperplate Bold" size="32.0" />
          </font>
