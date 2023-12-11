@@ -3,6 +3,6 @@ module com.example.iceproject {
     requires javafx.fxml;
 
 
-    opens com.example.iceproject to javafx.fxml;
-    exports com.example.iceproject;
+    exports com.example;
+    opens com.example to javafx.fxml;
 }
